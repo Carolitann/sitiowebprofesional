@@ -74,6 +74,10 @@ header #logo img{
 
 /*navegacion*/
 
+.slider-wrap{
+    margin: 4% 1%;
+}
+
 .loguito{
     border-radius: 80px;
 }
@@ -92,10 +96,10 @@ ul{
     list-style: none;
 }
 nav ul li{
- font-size: 150%;
+ font-size: 130%;
  display: inline-block;
  float: left;
- padding: 10px;
+ padding: auto;
 }
 
 nav ul li a {
@@ -112,8 +116,6 @@ nav ul li a {
     padding: 10px;
     text-align: center;
 }
-
-
 .icon-wrap{
     margin: 0 auto;
     width: 120px;
