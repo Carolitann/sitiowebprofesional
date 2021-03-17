@@ -96,7 +96,7 @@ ul{
     list-style: none;
 }
 nav ul li{
- font-size: 130%;
+ font-size: 120%;
  display: inline-block;
  float: left;
  padding: auto;
@@ -231,7 +231,7 @@ footer{
     line-height: 155%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 560px){
     p{
         font-size: 130%;
     }  
