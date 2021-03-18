@@ -241,7 +241,7 @@ footer{
     line-height: 155%;
 }
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 540px){
     p{
         font-size: 120%;
         margin-right: 4%;
