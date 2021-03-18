@@ -84,7 +84,7 @@ header #logo img{
 
 nav{
     float: right;
-    padding: 25px 20px 0px 0px;
+    padding: 13px 20px 0px 0px;
 }
 
 #menu-icon{
@@ -93,13 +93,12 @@ nav{
 }
 
 ul{
-    list-style: none;
+    list-style: none;    
 }
+
 nav ul li{
  font-size: 120%;
  display: inline-block;
- float: left;
- padding: auto;
 }
 
 nav ul li a {
@@ -109,6 +108,11 @@ nav ul li a {
 .current{
     color: #3f5767;
 }
+.list{
+    padding: 2rem 2rem; 
+}
+
+/*Seccion1*/
 
 .one-third{
     width: 31.5%;
@@ -132,7 +136,11 @@ nav ul li a {
     padding: 20%;
 }
 
-/*Section*/
+.ppp{
+    text-align: center;
+}
+
+/*Section2*/
 
 .left-col{
     float: left;
@@ -160,6 +168,8 @@ nav ul li a {
     clear: both;
     padding: 2%;
 }
+
+/*Footer*/
 
 footer{
     background: #2c3e50;
@@ -233,8 +243,17 @@ footer{
 
 @media screen and (max-width: 560px){
     p{
-        font-size: 130%;
+        font-size: 120%;
+        margin-right: 4%;
     }  
+    .pp{
+        margin-left: 4%;
+        margin-right: 1%;
+    }
+    .ppp{
+        text-align: center;
+        margin-left: 3%;
+    }
     h3{
         font-size: 150%;
     }
@@ -246,7 +265,6 @@ footer{
     header #logo{
         margin: 15ps 0 20ps -25px;
     }
-
     #menu-icon{
         display: inline-block;
     }
@@ -269,6 +287,10 @@ footer{
     nav li {
         text-align: center;
         width: 100%;
+       
+    }
+    .list{
+        padding: 0 ;
     }
     .one-third{
         float: left;
